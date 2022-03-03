@@ -1,0 +1,11 @@
+package Merlin;
+
+public class smallest {
+    public static int minimum(int[]arr){
+        int m=arr[0];
+        for(int b=1;b<arr.length;b++){
+            if(arr[b]<=m){
+                m=arr[b];
+            }
+        }
+        return m;
